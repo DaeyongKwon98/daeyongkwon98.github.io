@@ -1,22 +1,22 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Daeyong Kwon",
+    "email": "daeyongkwon@snu.ac.kr",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://daeyongkwon98.github.io/",
+    "summary": "Ph.D student in Language and Data Intelligence Lab, Seoul National University.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Seoul",
+      "countryCode": "KR",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=ZtgIY0gAAAAJ&hl"
       },
       {
         "network": "ORCID",
@@ -33,29 +33,29 @@
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Seoul National University",
+      "area": "Ph.D in Artifical Intelligence (NLP)",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2026",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "Korea Advanced Institute of Science and Technology",
+      "area": "M.S. in Culture Technology",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "startDate": "2024",
+      "endDate": "2026",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
+      "institution": "Korea Advanced Institute of Science and Technolog",
+      "area": "B.S. in School of Computing",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "startDate": "2017",
+      "endDate": "2024",
       "gpa": null,
       "courses": []
     }
