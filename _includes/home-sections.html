@@ -1,0 +1,75 @@
+{% include base_path %}
+
+<div class="home-sections">
+  <section id="publications" class="home-section">
+    <h2>Publications</h2>
+
+    {% if site.author.googlescholar %}
+      <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+    {% endif %}
+
+    {% if site.publication_category %}
+      {% for category in site.publication_category %}
+        {% assign title_shown = false %}
+        {% for post in site.publications reversed %}
+          {% if post.category != category[0] %}
+            {% continue %}
+          {% endif %}
+          {% unless title_shown %}
+            <h3>{{ category[1].title }}</h3>
+            {% assign title_shown = true %}
+          {% endunless %}
+          {% include archive-single.html %}
+        {% endfor %}
+      {% endfor %}
+    {% else %}
+      {% for post in site.publications reversed %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% endif %}
+  </section>
+
+  <section id="talks" class="home-section">
+    <h2>Talks and presentations</h2>
+    {% for post in site.talks reversed %}
+      {% include archive-single-talk.html %}
+    {% endfor %}
+  </section>
+
+  <section id="teaching" class="home-section">
+    <h2>Teaching</h2>
+    {% for post in site.teaching reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </section>
+
+  <section id="portfolio" class="home-section">
+    <h2>Portfolio</h2>
+    {% for post in site.portfolio reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </section>
+
+  <section id="blog-posts" class="home-section">
+    <h2>Blog posts</h2>
+    {% assign written_year = '' %}
+    {% for post in site.posts %}
+      {% assign year = post.date | date: '%Y' %}
+      {% if year != written_year %}
+        <h3 class="archive__subtitle">{{ year }}</h3>
+        {% assign written_year = year %}
+      {% endif %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </section>
+
+  <section id="cv" class="home-section">
+    <h2>CV</h2>
+    <p>My current research and academic background are summarized above. A printable CV is available <a href="{{ base_path }}/cv/">here</a>.</p>
+  </section>
+
+  <section id="guide" class="home-section">
+    <h2>Guide</h2>
+    <p>This website is built with Jekyll and Academic Pages. The <a href="{{ base_path }}/markdown/">site guide</a> contains notes about its structure and customization.</p>
+  </section>
+</div>

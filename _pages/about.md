@@ -18,3 +18,5 @@ News
 - Nov, 2025 - I start research internship at **Sony Group Corporation**.
 - Aug, 2025 - My paper (GRADE) is accepted to **EMNLP 2025 Findings**!
 - Jan, 2025 - I start research internship at **Selectstar AI**.
+
+{% include home-sections.html %}

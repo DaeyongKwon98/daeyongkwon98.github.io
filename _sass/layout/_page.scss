@@ -107,6 +107,15 @@
   }
 }
 
+/* Keep sections visible below the fixed masthead when reached via navigation. */
+.home-section {
+  scroll-margin-top: $masthead-height + 1em;
+
+  & + .home-section {
+    margin-top: 3em;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
