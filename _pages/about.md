@@ -13,8 +13,8 @@ My research focuses on multi-hop reasoning in Large Language Models, evaluation 
 News
 ======
 - Mar, 2026 - I start Ph.D in Language and Data Intelligence Lab, Seoul National University. (Advised by Prof. Seungwon Hwang)
-- Feb, 2026 - My two papers are accepted to **LREC 2026**!
+- Feb, 2026 - My two papers (ArtistMus and MHTS) are accepted to **LREC 2026**!
 - Feb, 2026 - I finish M.S in Music and Audio Computing Lab, KAIST. (Advised by Prof. Juhan Nam)
 - Nov, 2025 - I start research internship at **Sony Group Corporation**.
-- Aug, 2025 - My paper is accepted to **EMNLP 2025 Findings**!
+- Aug, 2025 - My paper (GRADE) is accepted to **EMNLP 2025 Findings**!
 - Jan, 2025 - I start research internship at **Selectstar AI**.
